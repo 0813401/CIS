@@ -1,7 +1,7 @@
 # CIS
 CIS (commodity image searcher), which is able to find a commodity by picture, and quickly find the items you want to buy.  
 Note: You need to run "pip install -r requirement.txt" first to install correct version packages.  
-Note: If you want to run the code without training, but using our pre-trained model (.h5 files), you can get the files from [here](https://drive.google.com/drive/folders/1b_K6F-vx8AtBOZVgqMPa4xoa3vflH5zl?usp=sharing)
+Note: If you want to run our code without training, you can use our pre-trained model (.h5 files). The files can be download from [here](https://drive.google.com/drive/folders/1b_K6F-vx8AtBOZVgqMPa4xoa3vflH5zl?usp=sharing).
   
 If you have any problem, you can see the [hackmd](https://hackmd.io/SfNwxhIDRpOHmpkUeANxUg) to get more information or contact us!!  
 Email: 50903chen@gmail.com
@@ -30,7 +30,7 @@ fashion_mnist(split = True)
 - description: Load fashion_mnist dataset and return it.
 - parameter:
   - split: Whether split dataset to train and test or not.
-- return: Return x, y (if split == True), else return x_train, x_test, y_train, y_test 
+- return: If split == True return x, y, else return x_train, x_test, y_train, y_test
   
 check_label()
 - description: Check the predict label of fashion_mnist dataset.
@@ -41,7 +41,7 @@ img_transform(path)
   - path: The path of the image
 - return: Transformed image
 
-### baseline_model.py - the baseline model is contained.
+### baseline_model.py - The baseline model is contained.
 resnet50(height = 224, width = 224, depth = 3, classes = 1, compile_flag = False)
 - description: Load the resnet50 model.
 - parameter:
@@ -118,7 +118,7 @@ show_top_rank(top_n)
 
 ## Experiment Results
 - ### Accuracy  
-![image](https://user-images.githubusercontent.com/66252510/173487314-ac400523-be9b-477c-a74e-ade9a67108df.png)
+![image](https://user-images.githubusercontent.com/66252510/173579842-f50f33c6-ae32-4c01-b30a-47f4d593e669.png)
 - ### Weighted F1-score
 ![image](https://user-images.githubusercontent.com/66252510/173487248-1e5cfb21-e93d-4af0-9fe9-23f9bab440f2.png)
 
