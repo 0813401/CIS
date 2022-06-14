@@ -1,5 +1,9 @@
 # CIS
-CIS (commodity image searcher), which is able to find a commodity by picture, and quickly find the items you want to buy.
+CIS (commodity image searcher), which is able to find a commodity by picture, and quickly find the items you want to buy.  
+Note: You need to run "pip install -r requirement.txt" first to install correct version packages.  
+  
+If you have any problem, you can see the [hackmd](https://hackmd.io/SfNwxhIDRpOHmpkUeANxUg) to get more information or contact us!!  
+Email: 50903chen@gmail.com
 
 ## Dataset
 fashion_mist   [[ref]](https://github.com/zalandoresearch/fashion-mnist)
