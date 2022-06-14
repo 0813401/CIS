@@ -1,6 +1,7 @@
 # CIS
 CIS (commodity image searcher), which is able to find a commodity by picture, and quickly find the items you want to buy.  
 Note: You need to run "pip install -r requirement.txt" first to install correct version packages.  
+Note: If you want to run the code without training, but using our pre-trained model (.h5 files), you can get the files from [here](https://drive.google.com/drive/folders/1b_K6F-vx8AtBOZVgqMPa4xoa3vflH5zl?usp=sharing)
   
 If you have any problem, you can see the [hackmd](https://hackmd.io/SfNwxhIDRpOHmpkUeANxUg) to get more information or contact us!!  
 Email: 50903chen@gmail.com
